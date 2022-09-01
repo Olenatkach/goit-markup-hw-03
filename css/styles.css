@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .description{
     line-height: 1.71;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6, p {
 .servise-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .servise-list,
 .servise-item,
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team-list {
     display: block;
     background: var(--main-text-title-color);
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .team-title-description {
     font-weight: 500;
@@ -241,8 +241,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.19;
     /* identical to box height */
     color: var(--primary-text-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-description {
     font-size: 16px;
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-address {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 /* Footer end */
 
@@ -348,6 +348,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     background: var(--main-text-title-color);
 }
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -368,19 +369,20 @@ h1, h2, h3, h4, h5, h6, p {
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    margin-bottom: 4px;
-    margin-top: 20px;
+    padding-bottom: 4px;
+    padding-top: 20px;
     text-align: start;
-    margin-left: 24px;
+    padding-left: 24px;
 }
 .portfolio-description {
     font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     color: var(--secondary-text-color);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: start;
-    margin-left: 24px;
+    padding-left: 24px;
+    border-bottom: 1px solid var(--outline-portfolio-card-color);
 }
 /* Portfolio Card Set end */
 
