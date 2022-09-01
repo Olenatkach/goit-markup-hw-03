@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team-list {
     display: block;
     background: var(--main-text-title-color);
-    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 .team-title-description {
     font-weight: 500;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.19;
     /* identical to box height */
     color: var(--secondary-text-color);
-    margin-bottom: 30px;
+    -bottom: 30px;
 }
 /* Our team end */
 
