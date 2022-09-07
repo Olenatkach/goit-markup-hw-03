@@ -382,6 +382,7 @@ h1, h2, h3, h4, h5, h6, p {
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 .portfolio-description {
     font-size: 16px;
