@@ -129,10 +129,10 @@ h1, h2, h3, h4, h5, h6, p {
 /* HERO */
 .hero {
     display: flex;
-    align-items: center;
     background: var(--black-background); 
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .main-title {
@@ -164,7 +164,6 @@ h1, h2, h3, h4, h5, h6, p {
     background: #188CE8;
     cursor: pointer;
     margin-top: 30px;
-    
 }
 
 .modal-btn:active {
@@ -197,13 +196,15 @@ h1, h2, h3, h4, h5, h6, p {
     /* or 171% */
     color: var(--secondary-text-color);
 }
+.servise-section {
+    padding-top: 0px;
+}
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--primary-text-color);
     margin-bottom: 50px;
-    margin-top: 94px;
     text-align: center;
 }
 .servise-list {
@@ -228,7 +229,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.team-container {
+.team-section {
     height: auto;
     background: var(--team-background);
 }
@@ -332,6 +333,8 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 4px;
     cursor: pointer;
     border: 0;
+    text-align: center;
+    padding: 6px 22px;
 }
 
 .filter-btn:active,
@@ -369,6 +372,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-bottom: 1px solid var(--outline-portfolio-card-color);
     border-left: 1px solid var(--outline-portfolio-card-color);
     border-right: 1px solid var(--outline-portfolio-card-color);
+    padding: 20px 24px;
 }
 
 .title-portfolio-description {
@@ -378,17 +382,12 @@ h1, h2, h3, h4, h5, h6, p {
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    padding-bottom: 4px;
-    padding-top: 20px;
-    padding-left: 24px;
 }
 .portfolio-description {
     font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     color: var(--secondary-text-color);
-    padding-bottom: 20px;
-    padding-left: 24px;
 }
 /* Portfolio Card Set end */
 
